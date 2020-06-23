@@ -1,0 +1,83 @@
+Mempelajari tentang beberapa momen menarik yang telah membantu menentukan sejarah robotika. dalam timeline ini menampilkan sejumlah peristiwa bersejarah di masa lalu serta perkembangan terkini yang telah membantu membentuk dunia robot dan teknologi secara umum, tentang kemajuan dalam kecerdasan buatan, perubahan dalam robotika industri, penelitian tentang senjata robot yang digunakan dalam pembuatan mobil, mars rover, dan banyak lagi. Ikuti sejarah robotika dari awal yang sederhana namun visioner hingga robot rumit saat ini. Robot-robot ini menyatukan berbagai bidang yang saling terkait seperti komputasi, filsafat dan teknik menjadi prestasi manusia yang semakin mengesankan.
+
+320 SM
+Filsuf Yunani, Aristoteles, membuat kutipan terkenal ini:
+"Jika setiap alat, ketika dipesan, atau bahkan atas kemauannya sendiri, dapat melakukan pekerjaan yang sesuai, maka tidak perlu magang untuk pekerja utama atau budak untuk para penguasa."
+
+1495
+Sekitar 1495 Leonardo da Vinci membuat sketsa rencana untuk robot humanoid.
+
+1700 - 1900
+Antara 1700 dan 1900 sejumlah robot berukuran otomat diciptakan termasuk salah satu yang terkenal yaitu mechanical duck  yang dibuat oleh Jacques de Vaucanson, Robot ini dapat mengangkat lehernya, mengepakkan sayapnya dan bahkan menelan makanan.
+
+1913
+Henry Ford memasang jalur perakitan berbasis ban berjalan pertama di dunia di pabrik mobilnya. Model T dapat dirakit dalam 93 menit.
+
+1920
+Karel Capek menciptakan kata 'robot' untuk menggambarkan mesin yang menyerupai manusia dalam permainannya yang disebut Rossums Universal Robots. permainan itu tentang sebuah drama masyarakat yang diperbudak oleh robot yang pernah melayani mereka.
+Gagasan ini sekarang menjadi tema umum dalam budaya populer, yaitu Frankenstein, Terminator, The Matrix dll.1932
+Lilliput
+Mainan robot  pertama diproduksi di Jepang. 'Lilliput' adalah boneka mainan berjalan. yang terbuat dari pelat timah dan tingginya hanya 15cm.
+
+1937
+Alan Turing merilis makalahnya "On Computable Numbers" yang memulai revolusi komputer.
+
+1941
+Asimov
+Penulis fiksi ilmiah legendaris Isaac Asimov menulis cerita pendek 'Pembohong!' Di mana ia menggambarkan Tiga Hukum Robot. Kisah-kisahnya dikompilasi ulang menjadi volume "I, Robot" pada tahun 1950 - kemudian direproduksi sebagai film yang dibintangi Will Smith.
+Tiga Hukum Robotika Asimov:
+Robot tidak boleh melukai manusia atau, karena tidak ada tindakan, membiarkan manusia terluka.
+Robot harus mematuhi perintah apa pun yang diberikan kepadanya oleh manusia, kecuali jika perintah tersebut akan bertentangan dengan Hukum Pertama.
+Robot harus melindungi keberadaannya sendiri selama perlindungan tersebut tidak bertentangan dengan Hukum Pertama atau Kedua.
+
+1950
+Alan Turing mengusulkan tes untuk menentukan apakah sebuah mesin benar-benar memiliki kekuatan untuk berpikir untuk dirinya sendiri. Untuk lulus tes, mesin harus dapat dibedakan dari manusia selama percakapan. Itu telah dikenal sebagai 'Tes Turing'.
+
+1954
+George Devol dan Joe Engleberger merancang robot '”arm” yang artinya lengan  pertama yang dapat diprogram. Ini kemudian menjadi robot industri pertama, menyelesaikan tugas berbahaya dan berulang pada jalur perakitan di General Motors (1962).
+
+
+1957
+Uni Soviet meluncurkan 'Sputnik', satelit pengorbit buatan pertama. Ini menandai awal dari perlombaan luar angkasa.
+
+1964
+IBM 360 menjadi komputer pertama yang diproduksi secara massal.
+
+1968
+Stanley Kubrick membuat karya Arthur C. Clark, 2001: A Space Odyssey dan dijadikan film. Karyanya ini memiliki fitur HAL, komputer onboard, yang dapat mengembangkan pikirannya sendiri.
+
+1969
+Manusia diBulan
+AS berhasil menggunakan teknologi komputasi, robot, dan ruang angkasa terbaru untuk mendaratkan Neil Armstrong di bulan.
+
+1977
+Film Star Wars pertama dirilis. Film George Lucas menginspirasi generasi peneliti baru melalui citranya tentang masa depan manusia yang dibagikan dengan robot seperti R2-D2 dan C-3PO yang sekarang terkenal.
+
+1986
+Produk pendidikan berbasis LEGO pertama kali dipasarkan dan Honda meluncurkan proyek untuk membangun robot humanoid yang berjalan.
+
+1994
+Carnegie University, berhasil membuat Dante II Robot berjalan  yang memiliki delapan kaki turun ke Gunung Spur untuk mengumpulkan sampel gas vulkanik.
+
+1997
+Pada 11 Mei, sebuah komputer yang dibuat oleh IBM yang dikenal sebagai Deep Blue mengalahkan juara catur dunia Garry Kasparov.
+Turnamen Robocup pertama diadakan di Jepang. Tujuan Robocup adalah memiliki tim robot sepenuhnya otomatis yang mengalahkan tim sepakbola terbaik dunia pada tahun 2050.
+
+1998
+LEGO meluncurkan Sistem Penemuan Robotika pertamanya.
+
+1999
+Sony merilis versi pertama AIBO, anjing robot dengan kemampuan untuk belajar, menghibur dan berkomunikasi dengan pemiliknya. Versi lebih lanjut telah mengikuti.
+
+AIBO awal
+2000
+Honda debut ASIMO, generasi berikutnya dalam seri robot humanoid.
+
+2004
+Epsom merilis robot terkecil yang diketahui, berdiri setinggi 7cm dan beratnya hanya 10 gram. Helikopter robot dimaksudkan untuk digunakan sebagai 'kamera terbang' selama bencana alam.
+
+2005
+Para peneliti di Cornell University membangun robot replikasi diri pertama. Setiap 'robot' terdiri dari menara kecil kubus yang terkomputerisasi yang terhubung bersama melalui penggunaan magnet.
+
+2008
+Setelah diperkenalkan pertama kali pada tahun 2002, penyedot debu robot Roomba yang populer telah terjual lebih dari 2,5 juta unit, membuktikan bahwa ada permintaan yang kuat untuk jenis teknologi robot domestik ini.

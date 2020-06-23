@@ -2,18 +2,673 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>Document</title>
-  <link rel="stylesheet" href="vendor/css/style.css" type="text/css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STMIK MDP</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <link
+        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/png" href="img/mdp.png">
+    </link>
 </head>
 
 <body>
-  <h1>Hello World :p</h1>
-  <h2>hi</h2>
+    <header role="banner">
+        <nav class="navbar navbar-expand-lg bg-primary">
+            <div class="container-fluid">
+                <a class="navbar-logo" href="index.html">ROBOTIKA</a>
 
-  <script src="vendor/js/script.js"></script>
+                <button class="navbar-toggler btn-light" type="button" data-toggle="collapse" data-target="#navbarsExample05"
+                    aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+
+                <div class="collapse navbar-collapse" id="navbarsExample05">
+                    <ul class="navbar-nav pl-md-5 ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#pengertian">Pengertian</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#timeline">Timeline</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#robot">Photos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#team">Team</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- About Robotic Section -->
+    <section class="jumbotron jumbotron-fluid bg-light" id="pengertian">
+        <div class="container mt-5">
+            <h1 class="display-3">Apa itu Robotika?</h1>
+            <hr class="my-2">
+            <p class="lead text-justify">
+                <b>Robotika</b> adalah satu cabang teknologi yang berhubungan dengan ayen, konstruksi, operasi,
+                disposisi struktural, pembuatan, dan aplikasi dari robot. Robotika terkait dengan ilmu pengetahuan
+                bidang elektronika, mesin, mekanika, dan
+                perangkat lunak komputer. Pemikiran tentang pembuatan mesin yang dapat bekerja sendiri telah ada sejak
+                Era Klasik, tetapi riset mengenai penggunaannya tidak berkembang secara berarti sampai abad ke-20. Kini,
+                banyak robot melakukan pekerjaan
+                yang berbahaya bagi manusia seperti menjinakkan bom, menjelajahi kapal karam, dan pertambangan. Proyek
+                ini dijalankan langsung oleh si hidung besar Reza Harun.
+            </p>
+        </div>
+    </section>
+    <!-- About Robotic Section -->
+
+    <!-- Timeline Robot -->
+    <section class="cd-horizontal-timeline" id="timeline">
+        <div class="timeline">
+            <div class="events-wrapper">
+                <div class="events">
+                    <ol>
+                        <li><a href="#0" data-date="01/01/2000" class="selected">320 SM</a></li>
+                        <li><a href="#0" data-date="10/01/2000">1495</a></li>
+                        <li><a href="#0" data-date="20/01/2000">1700 - 1900</a></li>
+                        <li><a href="#0" data-date="25/01/2000">1913</a></li>
+                        <li><a href="#0" data-date="28/01/2000">1920</a></li>
+                        <li><a href="#0" data-date="02/02/2000">1937</a></li>
+                        <li><a href="#0" data-date="03/02/2000">1939</a></li>
+                        <li><a href="#0" data-date="04/02/2000">1941</a></li>
+                        <li><a href="#0" data-date="07/02/2000">1948</a></li>
+                        <li><a href="#0" data-date="08/02/2000">1950</a></li>
+                        <li><a href="#0" data-date="09/02/2000">1951</a></li>
+                        <li><a href="#0" data-date="10/02/2000">1954</a></li>
+                        <li><a href="#0" data-date="11/02/2000">1956</a></li>
+                        <li><a href="#0" data-date="12/02/2000">1957</a></li>
+                        <li><a href="#0" data-date="13/02/2000">1960</a></li>
+                        <li><a href="#0" data-date="14/02/2000">1961</a></li>
+                        <li><a href="#0" data-date="15/02/2000">1964</a></li>
+                        <li><a href="#0" data-date="17/02/2000">1968</a></li>
+                        <li><a href="#0" data-date="18/02/2000">1969</a></li>
+                        <li><a href="#0" data-date="20/02/2000">1972</a></li>
+                        <li><a href="#0" data-date="21/02/2000">1974</a></li>
+                        <li><a href="#0" data-date="23/02/2000">1977</a></li>
+                        <li><a href="#0" data-date="24/02/2000">1979</a></li>
+                        <li><a href="#0" data-date="27/02/2000">1984</a></li>
+                        <li><a href="#0" data-date="28/02/2000">1986</a></li>
+                        <li><a href="#0" data-date="29/02/2000">1988</a></li>
+                        <li><a href="#0" data-date="01/03/2000">1990</a></li>
+                        <li><a href="#0" data-date="04/03/2000">1994</a></li>
+                        <li><a href="#0" data-date="07/03/2000">1997</a></li>
+                        <li><a href="#0" data-date="08/03/2000">1998</a></li>
+                        <li><a href="#0" data-date="09/03/2000">1999</a></li>
+                        <li><a href="#0" data-date="10/03/2000">2000</a></li>
+                        <li><a href="#0" data-date="12/03/2000">2004</a></li>
+                        <li><a href="#0" data-date="13/03/2000">2005</a></li>
+                        <li><a href="#0" data-date="14/03/2000">2006</a></li>
+                        <li><a href="#0" data-date="15/03/2000">2007</a></li>
+                        <li><a href="#0" data-date="16/03/2000">2008</a></li>
+                        <li><a href="#0" data-date="17/03/2000">2010</a></li>
+                        <li><a href="#0" data-date="18/03/2000">2011</a></li>
+                        <li><a href="#0" data-date="19/03/2000">2012</a></li>
+                        <li><a href="#0" data-date="20/03/2000">2013</a></li>
+                        <li><a href="#0" data-date="21/03/2000">2015</a></li>
+                        <li><a href="#0" data-date="22/03/2000">2016</a></li>
+                        <li><a href="#0" data-date="24/03/2000">2020</a></li>
+                    </ol>
+                    <span class="filling-line" aria-hidden="true"></span>
+                </div>
+                <!-- .events -->
+            </div>
+            <!-- .events-wrapper -->
+
+            <ul class="cd-timeline-navigation">
+                <li><a href="#0" class="prev inactive">Prev</a></li>
+                <li><a href="#0" class="next">Next</a></li>
+            </ul>
+            <!-- .cd-timeline-navigation -->
+        </div>
+        <!-- .timeline -->
+
+        <div class="events-content">
+            <ol>
+                <li class="selected" data-date="01/01/2000">
+                    <h2>320 SM</h2>
+                    <p>
+                        Filsuf Yunani, Aristoteles, membuat kutipan terkenal ini: "Jika setiap alat, ketika dipesan,
+                        atau bahkan atas kemauannya sendiri, dapat melakukan pekerjaan yang sesuai, maka tidak perlu
+                        magang untuk pekerja utama atau budak untuk para penguasa."
+                    </p>
+                </li>
+
+                <li data-date="10/01/2000">
+                    <h2>1495</h2>
+                    <p>
+                        Sekitar 1495 Leonardo da Vinci membuat sketsa rencana untuk robot humanoid.
+                    </p>
+                </li>
+
+
+                <li data-date="20/01/2000">
+                    <h2>1700-1900</h2>
+                    <p>
+                        Antara 1700 dan 1900 sejumlah robot berukuran otomat diciptakan termasuk salah satu yang
+                        terkenal yaitu mechanical duck yang dibuat oleh Jacques de Vaucanson, Robot ini dapat mengangkat
+                        lehernya, mengepakkan sayapnya dan bahkan menelan makanan.
+                    </p>
+                </li>
+
+                <li data-date="25/01/2000">
+                    <h2>1913</h2>
+                    <p>
+                        Henry Ford memasang jalur perakitan berbasis ban berjalan pertama di dunia di pabrik mobilnya.
+                        Model T dapat dirakit dalam 93 menit.
+                    </p>
+                </li>
+
+                <li data-date="28/01/2000">
+                    <h2>1920</h2>
+                    <p>
+                        Karel Capek menciptakan kata 'robot' untuk menggambarkan mesin yang menyerupai manusia dalam
+                        permainannya yang disebut Rossums Universal Robots. permainan itu tentang sebuah drama
+                        masyarakat yang diperbudak oleh robot yang pernah melayani mereka. Gagasan
+                        ini sekarang menjadi tema umum dalam budaya populer, yaitu Frankenstein, Terminator, The Matrix
+                        dll.1932 Lilliput Mainan robot pertama diproduksi di Jepang. 'Lilliput' adalah boneka mainan
+                        berjalan. yang terbuat dari pelat timah
+                        dan tingginya hanya 15cm.
+                    </p>
+                </li>
+
+                <li data-date="02/02/2000">
+                    <h2>1937</h2>
+                    <p>
+                        Alan Turing merilis makalahnya "On Computable Numbers" yang memulai revolusi komputer.
+                    </p>
+                </li>
+
+                <li data-date="03/02/2000">
+                    <h2>1939</h2>
+                    <p>
+                        Elektro , robot berbentuk manusia tampil pada acara world fair , dengan pertunjukkan merokok dan
+                        meniup balom
+                    </p>
+                </li>
+
+                <li data-date="04/02/2000">
+                    <h2>1941</h2>
+                    <p>
+                        Penulis fiksi ilmiah legendaris Isaac Asimov menulis cerita pendek 'Pembohong!' Di mana ia
+                        menggambarkan Tiga Hukum Robot. Kisah-kisahnya dikompilasi ulang menjadi volume "I, Robot" pada
+                        tahun 1950 - kemudian direproduksi sebagai film yang dibintangi
+                        Will Smith. Tiga Hukum Robotika Asimov:
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-4">
+                                        Robot tidak boleh melukai manusia atau, karena tidak ada tindakan, membiarkan
+                                        manusia terluka.
+                                    </div>
+                                    <div class="col-4">
+                                        Robot harus mematuhi perintah apa pun yang diberikan kepadanya oleh manusia,
+                                        kecuali jika perintah tersebut akan bertentangan dengan Hukum Pertama.
+                                    </div>
+                                    <div class="col-4">
+                                        Robot harus melindungi keberadaannya sendiri selama perlindungan tersebut tidak
+                                        bertentangan dengan Hukum Pertama atau Kedua.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </p>
+                </li>
+
+                <li data-date="07/02/2000">
+                    <h2>1948</h2>
+                    <p>
+                        William Grey membuat robot autonomur pertama dengan perilaku yang kompleks
+                    </p>
+                </li>
+
+                <li data-date="08/02/2000">
+                    <h2>1950</h2>
+                    <p>
+                        Alan Turing mengusulkan tes untuk menentukan apakah sebuah mesin benar-benar memiliki kekuatan
+                        untuk berpikir untuk dirinya sendiri. Untuk lulus tes, mesin harus dapat dibedakan dari manusia
+                        selama percakapan. Itu telah dikenal sebagai 'Tes Turing'.
+                    </p>
+                </li>
+
+                <li data-date="09/02/2000">
+                    <h2>1951</h2>
+                    <p>
+                        Marvin Minsky membuat neurokomputer pertama,Snarc
+                    </p>
+                </li>
+
+                <li data-date="10/02/2000">
+                    <h2>1954</h2>
+                    <p>
+                        George Devol dan Joe Engleberger merancang robot '”arm” yang artinya lengan pertama yang dapat
+                        diprogram. Ini kemudian menjadi robot industri pertama, menyelesaikan tugas berbahaya dan
+                        berulang pada jalur perakitan di General Motors (1962).
+                    </p>
+                </li>
+
+                <li data-date="11/02/2000">
+                    <h2>1956</h2>
+                    <p>
+                        IBM 305 , hard disk pertama sebesar 5Mb
+                    </p>
+                </li>
+
+                <li data-date="12/02/2000">
+                    <h2>1957</h2>
+                    <p>
+                        Uni Soviet meluncurkan 'Sputnik', satelit pengorbit buatan pertama. Ini menandai awal dari
+                        perlombaan luar angkasa.
+                    </p>
+                </li>
+
+                <li data-date="13/02/2000">
+                    <h2>1960</h2>
+                    <p>
+                        Frank Rossenblatt membangun Mark 1 Perceptron yaitu komputer yang mempelajari skill baru dari
+                        pembelajaran error
+                    </p>
+                </li>
+
+                <li data-date="14/02/2000">
+                    <h2>1961</h2>
+                    <p>
+                        GM menginstall robot bernama unimate untuk mengangkat dan menumpuk potongan logam yang panas
+                    </p>
+                </li>
+
+                <li data-date="15/02/2000">
+                    <h2>1964</h2>
+                    <p>
+                        IBM 360 menjadi komputer pertama yang diproduksi secara massal.
+                    </p>
+                </li>
+
+                <li data-date="17/02/2000">
+                    <h2>1968</h2>
+                    <p>
+                        Stanley Kubrick membuat karya Arthur C. Clark, 2001: A Space Odyssey dan dijadikan film.
+                        Karyanya ini memiliki fitur HAL, komputer onboard, yang dapat mengembangkan pikirannya sendiri.
+                    </p>
+                </li>
+
+                <li data-date="18/02/2000">
+                    <h2>1969</h2>
+                    <p>
+                        AS berhasil menggunakan teknologi komputasi, robot, dan ruang angkasa terbaru untuk mendaratkan
+                        Neil Armstrong di bulan.
+                    </p>
+                </li>
+
+                <li data-date="20/02/2000">
+                    <h2>1972</h2>
+                    <p>
+                        penelitian Stanford mengembagkan PARRY , didesain untuk menstimulasi paranoid schizophrenic
+                    </p>
+                </li>
+
+                <li data-date="21/02/2000">
+                    <h2>1974</h2>
+                    <p>
+                        Intel memproduksi generasi ke-2 8080
+                    </p>
+                </li>
+
+                <li data-date="23/02/2000">
+                    <h2>1977</h2>
+                    <p>
+                        Film Star Wars pertama dirilis. Film George Lucas menginspirasi generasi peneliti baru melalui
+                        citranya tentang masa depan manusia yang dibagikan dengan robot seperti R2-D2 dan C-3PO yang
+                        sekarang terkenal.
+                    </p>
+                </li>
+
+                <li data-date="24/02/2000">
+                    <h2>1979</h2>
+                    <p>
+                        Scara, adalah robot yang di kembangkan untuk jalur perakitan
+                    </p>
+                </li>
+
+                <li data-date="27/02/2000">
+                    <h2>1984</h2>
+                    <p>
+                        Doug Lenat dan tim memulai Cyc , untuk mengkodifikasi jutaan pengetahuan
+                    </p>
+                </li>
+
+                <li data-date="28/02/2000">
+                    <h2>1986</h2>
+                    <p>
+                        Produk pendidikan berbasis LEGO pertama kali dipasarkan dan Honda meluncurkan proyek untuk
+                        membangun robot humanoid yang berjalan.
+                    </p>
+                </li>
+
+                <li data-date="29/02/2000">
+                    <h2>1988</h2>
+                    <p>
+                        robot pembantu pertama yang digunakan di rumah sakit Danbury
+                    </p>
+                </li>
+
+                <li data-date="01/03/2000">
+                    <h2>1990</h2>
+                    <p>
+                        iRobot ditemukan untuk kalangan sendiri dan dipergunakan untuk robot militer
+                    </p>
+                </li>
+
+                <li data-date="04/03/2000">
+                    <h2>1994</h2>
+                    <p>
+                        Carnegie University, berhasil membuat Dante II Robot berjalan yang memiliki delapan kaki turun
+                        ke Gunung Spur untuk mengumpulkan sampel gas vulkanik.
+                    </p>
+                </li>
+
+                <li data-date="07/03/2000">
+                    <h2>1997</h2>
+                    <p>
+                        Pada 11 Mei, sebuah komputer yang dibuat oleh IBM yang dikenal sebagai Deep Blue mengalahkan
+                        juara catur dunia Garry Kasparov. Turnamen Robocup pertama diadakan di Jepang. Tujuan Robocup
+                        adalah memiliki tim robot sepenuhnya otomatis yang mengalahkan tim
+                        sepakbola terbaik dunia pada tahun 2050.
+                    </p>
+                </li>
+
+                <li data-date="08/03/2000">
+                    <h2>1998</h2>
+                    <p>
+                        LEGO meluncurkan Sistem Penemuan Robotika pertamanya.
+                    </p>
+                </li>
+
+                <li data-date="09/03/2000">
+                    <h2>1999</h2>
+                    <p>
+                        Sony merilis versi pertama AIBO, anjing robot dengan kemampuan untuk belajar, menghibur dan
+                        berkomunikasi dengan pemiliknya. Versi lebih lanjut telah mengikuti.
+                    </p>
+                </li>
+
+                <li data-date="10/03/2000">
+                    <h2>2000</h2>
+                    <p>
+                        Honda debut ASIMO, generasi berikutnya dalam seri robot humanoid.
+                    </p>
+                </li>
+
+                <li data-date="12/03/2000">
+                    <h2>2004</h2>
+                    <p>
+                        Epsom merilis robot terkecil yang diketahui, berdiri setinggi 7cm dan beratnya hanya 10 gram.
+                        Helikopter robot dimaksudkan untuk digunakan sebagai 'kamera terbang' selama bencana alam.
+                    </p>
+                </li>
+
+                <li data-date="13/03/2000">
+                    <h2>2005</h2>
+                    <p>
+                        Para peneliti di Cornell University membangun robot replikasi diri pertama. Setiap 'robot'
+                        terdiri dari menara kecil kubus yang terkomputerisasi yang terhubung bersama melalui penggunaan
+                        magnet.
+                    </p>
+                </li>
+
+                <li data-date="14/03/2000">
+                    <h2>2006</h2>
+                    <p>
+                        IBM memperkenalkan Watson yaitu sistem komputer yang menjawab pertanyaan yang akhirnya
+                        digantikan oleh jeopardy Champion
+                    </p>
+                </li>
+
+                <li data-date="15/03/2000">
+                    <h2>2007</h2>
+                    <p>
+                        Faruc mengembangkan robot industri berlengan yang mampu mengambil 120 barang permenitnya
+                    </p>
+                </li>
+
+                <li data-date="16/03/2000">
+                    <h2>2008</h2>
+                    <p>
+                        Setelah diperkenalkan pertama kali pada tahun 2002, penyedot debu robot Roomba yang populer
+                        telah terjual lebih dari 2,5 juta unit, membuktikan bahwa ada permintaan yang kuat untuk jenis
+                        teknologi robot domestik ini.
+                    </p>
+                </li>
+
+                <li data-date="17/03/2000">
+                    <h2>2010</h2>
+                    <p>
+                        Google Meluncurkan versi 3 dimensi dari Street View
+                    </p>
+                </li>
+
+                <li data-date="18/03/2000">
+                    <h2>2011</h2>
+                    <p>
+                        Diperkenalkannya Siri pada iphone
+                    </p>
+                </li>
+
+                <li data-date="19/03/2000">
+                    <h2>2012</h2>
+                    <p>
+                        Google memperkenalkan google now ,yang sekarang sudah dianggap kuno di google Assistant
+                    </p>
+                </li>
+
+                <li data-date="20/03/2000">
+                    <h2>2013</h2>
+                    <p>
+                        Google merilis google Glass
+                    </p>
+                </li>
+
+                <li data-date="21/03/2000">
+                    <h2>2015</h2>
+                    <p>
+                        Amazon merilis Alexa yaitu asisten virtual
+                    </p>
+                </li>
+
+                <li data-date="22/03/2000">
+                    <h2>2016</h2>
+                    <p>
+                        Amazon membuat drone pengantar pertama di UK
+                    </p>
+                </li>
+
+                <li data-date="24/03/2000">
+                    <h2>2020</h2>
+                    <p>
+                        Harga industri drone senilai $127.000.000.000
+                    </p>
+                </li>
+            </ol>
+        </div>
+        <!-- events-content -->
+    </section>
+    <!-- Timeline Robot -->
+
+    <!--Timeline carousel-->
+    <section class="timeline-carousel" id="robot">
+        <h2>PHOTOS</h2>
+        <div class="timeline-carousel__item-wrapper" data-js="timeline-carousel">
+            <!--Timeline item-->
+            <div class="timeline-carousel__item">
+                <div class="timeline-carousel__image">
+                    <div class="media-wrapper media-wrapper--overlay"
+                        style="background: url('img/aibo.png') center center; background-size:cover;">
+                    </div>
+                </div>
+                <div class="timeline-carousel__item-inner">
+                    <span class="year">AIBO</span>
+                    <span class="month">Artificial Intelligence Robot</span>
+                    <p>AIBO berarti "sobat" dalam bahasa Jepang) adalah salah satu dari beberapa jenis robot hewan yang
+                        dirancang dan diproduksi oleh Sony; saat ini sudah ada beberapa model yang berbeda sejak mulai
+                        diperkenalkan pada 11 Mei 1999. Pengembangan
+                        AIBO telah dihentikan pada tahun 2006</p>
+                </div>
+            </div>
+            <!--/Timeline item-->
+
+            <!--Timeline item-->
+            <div class="timeline-carousel__item">
+                <div class="timeline-carousel__image">
+                    <div class="media-wrapper media-wrapper--overlay"
+                        style="background: url('img/asimo.png') center center; background-size:cover;">
+                    </div>
+                </div>
+                <div class="timeline-carousel__item-inner">
+                    <div class="year">ASIMO</div>
+                    <span class="month">アシモ Ashimo</span>
+                    <p>Asimo adalah robot humanoid yang dibuat oleh Honda. Dengan tinggi 130 sentimeter dan berat 54
+                        kilogram, penampilan robot ini menyerupai seorang astronot dengan baju astronotnya yang membawa
+                        ransel. ASIMO dapat berjalan dengan dua kaki
+                        dengan gaya berjalan yang menyerupai manusia hingga kecepatan 6 km/jam. ASIMO diciptakan pada
+                        Pusat Penelitian dan Pengembangan Honda Pusat Penelitian Teknik Fundamental Wako di Jepang.
+                        Model yang sekarang merupakan versi sebelas,
+                        semenjak dimulainya proyek ASIMO pada 1986.</p>
+                </div>
+            </div>
+            <!--/Timeline item-->
+
+            <!--Timeline item-->
+            <div class="timeline-carousel__item">
+                <div class="timeline-carousel__image">
+                    <div class="media-wrapper media-wrapper--overlay"
+                        style="background: url('img/kuka.png') center center; background-size:cover;">
+                    </div>
+                </div>
+                <div class="timeline-carousel__item-inner">
+                    <span class="year">KUKA</span>
+                    <span class="month">Kuka Robotic</span>
+                    <p>KUKA adalah sebuah produsen robot industri Jerman dan solusi untuk otomatisasi pabrik. KUKA
+                        Robotika Corporation memiliki 25 anak perusahaan di seluruh dunia, sebagian besar penjualan dan
+                        layanan anak perusahaan, termasuk di Amerika
+                        Serikat, Kanada, Meksiko, Brasil, China, Jepang, Korea, Taiwan, India, Rusia[1] dan sebagian
+                        besar negara-negara Eropa. Nama perusahaan, KUKA, adalah singkatan dari Keller und Knappich
+                        Augsburg.
+                    </p>
+                </div>
+            </div>
+            <!--/Timeline item-->
+
+            <!--Timeline item-->
+            <div class="timeline-carousel__item">
+                <div class="timeline-carousel__image">
+                    <div class="media-wrapper media-wrapper--overlay"
+                        style="background: url('img/sophia.png') center center; background-size:cover;">
+                    </div>
+                </div>
+                <div class="timeline-carousel__item-inner">
+                    <span class="year">SOPHIA</span>
+                    <span class="month">Humanoid Robot</span>
+                    <p>Sophia adalah sebuah robot humanoid yang dikembangkan oleh perusahaan berbasis di Hong Kong,
+                        Hanson Robotics. Robot tersebut dirancang untuk memberikan jawaban berbagai pertanyaan dan telah
+                        "diwawancara" di seluruh dunia. Pada Oktober
+                        2017, robot tersebut menjadi warga negara Arab Saudi. Sophia adalah robot pertama yang meraih
+                        kewarganegaraan dari sebuah negara.</p>
+                </div>
+            </div>
+            <!--/Timeline item-->
+        </div>
+    </section>
+    <!--Timeline carousel-->
+
+    <!-- Our Team Section -->
+    <section class="our-webcoderskull padding-lg" id="team">
+        <div class="container">
+            <div class="row heading heading-icon">
+                <h2 class="text-white font-weight-bold text-center">OUR TEAM</h2>
+            </div>
+            <ul class="row">
+                <li class="col-12 col-md-6 col-lg-3">
+                    <div class="cnt-block equal-hight" style="height: 349px;">
+                        <figure><img src="http://www.webcoderskull.com/img/team4.png" class="img-responsive" alt="">
+                        </figure>
+                        <h3><a href="http://www.webcoderskull.com/">Wernanda Patricia</a></h3>
+                        <p>18222250017</p>
+                        <ul class="follow-us clearfix">
+                            <li><a href="#"><i class="fa fa-google" aria-hidden="true"></i></a></li>
+                            <li><a href="https://www.github.com/wernanda" target="_blank"><i class="fa fa-github"
+                                        aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="col-12 col-md-6 col-lg-3">
+                    <div class="cnt-block equal-hight" style="height: 349px;">
+                        <figure><img src="http://www.webcoderskull.com/img/team1.png" class="img-responsive" alt="">
+                        </figure>
+                        <h3><a href="#">Metta Saputra</a></h3>
+                        <p>1822250042</p>
+                        <ul class="follow-us clearfix">
+                            <li><a href="mailto: mettasaputra@mhs.mdp.ac.id"><i class="fa fa-google"
+                                        aria-hidden="true"></i></a></li>
+                            <li><a href="https://www.github.com/chocoreo" target="_blank"><i class="fa fa-github"
+                                        aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="col-12 col-md-6 col-lg-3">
+                    <div class="cnt-block equal-hight" style="height: 349px;">
+                        <figure><img src="http://www.webcoderskull.com/img/team4.png" class="img-responsive" alt="">
+                        </figure>
+                        <h3><a href="mailto:gracivoelsion@mhs.mdp.ac.id">Gracivo Elsion Victory</a></h3>
+                        <p>1822250057</p>
+                        <ul class="follow-us clearfix">
+                            <li><a href="#"><i class="fa fa-google" aria-hidden="true"></i></a></li>
+                            <li><a href="https://www.github.com/okyx" target="_blank"><i class="fa fa-github"
+                                        aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="col-12 col-md-6 col-lg-3">
+                    <div class="cnt-block equal-hight" style="height: 349px;">
+                        <figure><img src="http://www.webcoderskull.com/img/team2.png" class="img-responsive" alt="">
+                        </figure>
+                        <h3><a href="http://www.webcoderskull.com/">Zicola Vladimir Viky Khan</a></h3>
+                        <p>1822250087</p>
+                        <ul class="follow-us clearfix">
+                            <li><a href="mailto: zicolavladimir@mhs.mdp.ac.id"><i class="fa fa-google"
+                                        aria-hidden="true"></i></a>
+                            </li>
+                            <li><a href="https://www.github.com/okyx" target="_blank"><i class="fa fa-github"
+                                        aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!-- Our Team Section -->
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+        </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+        </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>

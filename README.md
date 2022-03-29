@@ -1,1 +1,1 @@
-# chocoreo.github.io
+Information Robot Technology Website using HTML & CSS
